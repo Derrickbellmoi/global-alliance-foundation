@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>GLOBAL ALLIANCE FOUNDATION</title>
+    <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/mediaQuerry.css" type="text/css">
+
+  <!-- Font Awesome (local + CDN) -->
+  <link rel="stylesheet" href="fonts/css/all.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+  <!-- ==================== Header ==================== -->
+  <header class="site-header">
+    <div class="container nav" role="navigation" aria-label="Main">
+      <a class="brand" href="#top">
+      <img id="brandLogo" src="images/GAF1.jpg" alt="AVTI Logo" loading="lazy" decoding="async"/>
+       <span class="i "true>GLOBAL ALLIANCE FOUNDATION</span>
+        <span></span>
+      </a>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme">Theme</button>
+    </div>
+  </header>
+
+  <!-- ==================== Hero ==================== -->
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container hero-grid">
+        <div>
+          <span class="pill">Non‑profit • People • Planet • Progress</span>
+          <h1 id="heroTitle">We deliver help where it matters most.</h1>
+          <p class="lead">We cover a broad range of services improving our world—youth guidance, immigration concerns, human rights, housing, travel, feeding the hungry, medical flights, advanced education, the arts, and sports—and we build new programs wherever communities need them.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#contact">Volunteer</a>
+            <a class="btn ghost" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="frame" aria-hidden="true">
+            <!-- Decorative illustrative SVG (no external images) -->
+            <svg viewBox="0 0 600 400" role="img" aria-label="People working together illustration" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="var(--primary)"/>
+                  <stop offset="1" stop-color="#c8b299"/>
+                </linearGradient>
+              </defs>
+              <rect width="600" height="400" rx="18" fill="#0e1527"/>
+              <circle cx="90" cy="110" r="48" fill="url(#g)"/>
+              <rect x="160" y="80" width="360" height="60" rx="12" fill="url(#g)" opacity=".3"/>
+              <rect x="160" y="160" width="320" height="60" rx="12" fill="url(#g)" opacity=".25"/>
+              <rect x="160" y="240" width="380" height="60" rx="12" fill="url(#g)" opacity=".22"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,64 C240,96 480,32 720,48 C960,64 1200,128 1440,96 L1440,120 L0,120 Z" fill="var(--card)" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ==================== Services ==================== -->
+    <section id="services" aria-labelledby="servicesTitle">
+      <div class="container">
+        <h2 id="servicesTitle" class="section-title">What we do</h2>
+        <p class="section-intro">Our integrated service model tackles urgent needs and long‑term opportunity—locally and across borders.</p>
+
+        <div class="grid">
+          <!-- Row 1 -->
+          <article class="card" aria-labelledby="svc1"><div class="icon">🧭</div><h3 id="svc1">Youth Guidance</h3><p>Mentoring, scholarship advising, internships, and life‑skills bootcamps.</p></article>
+          <article class="card" aria-labelledby="svc2"><div class="icon">🛂</div><h3 id="svc2">Immigration Concerns</h3><p>Document clinics, referrals to accredited counsel, and newcomer welcome kits.</p></article>
+          <article class="card" aria-labelledby="svc3"><div class="icon">🕊️</div><h3 id="svc3">Human Rights</h3><p>Rapid response advocacy, safe‑report channels, and training for defenders.</p></article>
+
+          <!-- Row 2 -->
+          <article class="card" aria-labelledby="svc4"><div class="icon">🏠</div><h3 id="svc4">Housing</h3><p>Emergency shelter placement, rent‑relief navigation, and landlord mediation.</p></article>
+          <article class="card" aria-labelledby="svc5"><div class="icon">✈️</div><h3 id="svc5">Travel Aid</h3><p>Compassion fares, travel documents, and logistics for crisis movement.</p></article>
+          <article class="card" aria-labelledby="svc6"><div class="icon">🍲</div><h3 id="svc6">Feeding the Hungry</h3><p>Community kitchens, surplus food rescue, and dignity‑first pantries.</p></article>
+
+          <!-- Row 3 -->
+          <article class="card" aria-labelledby="svc7"><div class="icon">🚑</div><h3 id="svc7">Medical Flights</h3><p>Coordination with air‑ambulance partners and travel grants for treatment.</p></article>
+          <article class="card" aria-labelledby="svc8"><div class="icon">🎓</div><h3 id="svc8">Advanced Education</h3><p>Bridge programs, credential evaluation, and graduate study counseling, scholarship programs.</p></article>
+          <article class="card" aria-labelledby="svc9"><div class="icon">🎨</div><h3 id="svc9">The Arts</h3><p>Artist residencies, youth arts labs, public murals, and cultural festivals.</p></article>
+
+          <!-- Row 4 -->
+          <article class="card" aria-labelledby="svc10"><div class="icon">🏅</div><h3 id="svc10">Sports</h3><p>Community leagues, girls’ participation, coaching certification, and gear banks.</p></article>
+          <article class="card" aria-labelledby="svc11"><div class="icon">🧠</div><h3 id="svc11">Mental Health</h3><p>Peer support circles, first‑aid training, and low‑cost counseling referrals.</p></article>
+          <article class="card" aria-labelledby="svc12"><div class="icon">⚖️</div><h3 id="svc12">Legal Aid</h3><p>Know‑your‑rights clinics and connections to pro‑bono representation.</p></article>
+
+          <!-- Row 5 -->
+          <article class="card" aria-labelledby="svc13"><div class="icon">💼</div><h3 id="svc13">Jobs & Entrepreneurship</h3><p>Work readiness, apprenticeships, micro‑grants, and small‑business mentoring.</p></article>
+          <article class="card" aria-labelledby="svc14"><div class="icon">🌿</div><h3 id="svc14">Environmental Action</h3><p>Urban greening, waste‑to‑value projects, and climate resilience training.</p></article>
+          <article class="card" aria-labelledby="svc15"><div class="icon">🆘</div><h3 id="svc15">Disaster Relief</h3><p>Preparedness kits, coordination hubs, and cash‑assistance pathways.</p></article>
+
+          <!-- Row 6 -->
+          <article class="card" aria-labelledby="svc16"><div class="icon">💻</div><h3 id="svc16">Digital Literacy</h3><p>Community computer labs, safe‑internet workshops, and coding clubs.</p></article>
+          <article class="card" aria-labelledby="svc17"><div class="icon">👩🏽‍🎓</div><h3 id="svc17">Women & Girls</h3><p>STEM access, protection services, leadership camps, and childcare support.</p></article>
+          <article class="card" aria-labelledby="svc18"><div class="icon">🧓</div><h3 id="svc18">Elder Care</h3><p>Home visits, mobility resources, and intergenerational companionship.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Impact ==================== -->
+    <section id="impact" aria-labelledby="impactTitle">
+      <div class="container">
+        <h2 id="impactTitle" class="section-title">Our impact (2025 to date)</h2>
+        <p class="section-intro">We publish transparent metrics and share stories from people we serve.</p>
+        <div class="stats" role="list">
+          <div class="stat" role="listitem"><strong>19,450+</strong>Meals served</div>
+          <div class="stat" role="listitem"><strong>580</strong>Students mentored</div>
+          <div class="stat" role="listitem"><strong>292</strong>Families housed</div>
+          <div class="stat" role="listitem"><strong>57</strong>Medical flights coordinated</div>
+        </div>
+      </div>
+    </section>
+
+        <!-- MEDIA GALLERIES -->
+    <section id="media" aria-labelledby="mediaTitle">
+      <div class="container">
+        <h2 id="mediaTitle" class="section-title">Events</h2>
+
+
+        <!-- Charity -->
+        <h3 class="sub-title"></h3>
+        <div class="media-grid">
+          <!-- IMAGE: replace src with your file in /images/charity/ -->
+          <figure class="media-card">
+            <div class="media-aspect">
+              <img src="images/Meals.jpg" alt="Volunteers serving hot meals" loading="lazy">
+            </div>
+            <figcaption>Food drive — Feeding the hungry.</figcaption>
+          </figure>
+          <!-- VIDEO: place MP4 in /videos/charity/ and add a poster image in /images/posters/ -->
+
+        </div>
+
+        <!-- School -->
+        <h3 class="sub-title"></h3>
+        <div class="media-grid">
+          <figure class="media-card">
+            <div class="media-aspect">
+              <img src="images/scholarship 1.jpg" alt="Scholarship recipients on stage" loading="lazy">
+            </div>
+            <figcaption>Scholarship Ceremony — Class of 2025.</figcaption>
+          </figure>
+          <figure class="media-card">
+            <div class="media-aspect">
+              <video controls preload="metadata" poster="images/posters/school-lab.jpg">
+                <source src="videos/School Graduation.webm" type="video/mp4" />
+              </video>
+            </div>
+            <figcaption>Graduations</figcaption>
+          </figure>
+        </div>
+
+        <!-- Sports -->
+        <h3 class="sub-title"></h3>
+        <div class="media-grid">
+          <figure class="media-card">
+            <div class="media-aspect">
+              <img src="images/Run Run.avif" alt="Community football league match" loading="lazy">
+            </div>
+            <figcaption>Community league mini marathon.</figcaption>
+          </figure>
+
+        </div>
+
+        <!-- Events (General) -->
+        <h3 class="sub-title"></h3>
+        <div class="media-grid">
+          <figure class="media-card">
+            <div class="media-aspect">
+              <img src="images/fun raising.jpg" alt="Fundraising gala with partners" loading="lazy">
+            </div>
+            <figcaption>Partners gala — Thank you sponsors.</figcaption>
+          </figure>
+          <figure class="media-card">
+            <div class="media-aspect">
+              <video controls preload="metadata" poster="images/posters/charity-fooddrive.jpg">
+                <source src="videos/charity food drive.mp4" type="video/mp4" />
+                <!-- Optional WebM for smaller size -->
+                <!-- <source src="videos/charity/fooddrive-highlights.webm" type="video/webm" /> -->
+              </video>
+            </div>
+            <figcaption>Food drive highlights </figcaption>
+          </figure>
+        </div>
+
+    <!-- ==================== Programs Timeline ==================== -->
+    <section id="programs" aria-labelledby="programsTitle">
+      <div class="container">
+        <h2 id="programsTitle" class="section-title">Current programs</h2>
+        <div class="timeline" aria-label="Program milestones">
+          <div class="item">
+            <h4>Food Rescue Network</h4>
+            <p>Daily pickups from markets and hotels; redistributed through community fridges.</p>
+          </div>
+          <div class="item">
+            <h4>Bridge to Grad School</h4>
+            <p>One‑year intensive for international degree‑seekers: exams, research, and funding.</p>
+          </div>
+          <div class="item">
+            <h4>Rights Now</h4>
+            <p>Secure case intake with trained advocates and rapid referrals to legal partners.</p>
+          </div>
+          <div class="item">
+            <h4>Flights</h4>
+            <p>Connecting families all over the world.</p>
+          </div>
+          <div class="item">
+            <h4>Entrepreneurship</h4>
+            <p>We foster female empowerment, local Entrepreneurs, and solutions that last.</p>
+          </div>
+          <div class="item">
+            <h4>Green Blocks</h4>
+            <p>Tree planting, waste sorting, and climate apprenticeships for youth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Testimonials ==================== -->
+    <section aria-labelledby="voicesTitle">
+      <div class="container">
+        <h2 id="voicesTitle" class="section-title">Community voices</h2>
+        <div class="quotes">
+          <blockquote class="quote">“I found a mentor and a pathway to university. They believed in me before I did.” — Kimberly, student</blockquote>
+          <blockquote class="quote">“When we were stranded for surgery, their team secured a medical flight in 24 hours.” — Greg &amp; Martha</blockquote>
+          <blockquote class="quote">“Our block is cooler and cleaner thanks to Green Blocks. Kids love it.” — Mariam, resident</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Partners ==================== -->
+    <section aria-labelledby="partnersTitle">
+      <div class="container">
+        <h2 id="partnersTitle" class="section-title">Partners & supporters</h2>
+        <div class="partners" role="list">
+          <div class="partner" role="listitem">City Health</div>
+          <div class="partner" role="listitem">AirCare Alliance</div>
+          <div class="partner" role="listitem">Tech4All</div>
+          <div class="partner" role="listitem">FoodShare</div>
+          <div class="partner" role="listitem">Girls in STEM</div>
+          <div class="partner" role="listitem">Legal Aid Assoc.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Contact / Volunteer ==================== -->
+    <section id="contact" aria-labelledby="contactTitle">
+      <div class="container">
+        <h2 id="contactTitle" class="section-title">Get involved</h2>
+        <p class="section-intro">Volunteer for an upcoming project, request assistance, or become a funding partner.</p>
+        <form id="contactForm" aria-describedby="formNote">
+          <div>
+            <label for="name">Your name</label>
+            <input id="name" name="name" autocomplete="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div>
+            <label for="topic">I’m interested in</label>
+            <select id="topic" name="topic">
+              <option>Volunteering</option>
+              <option>Donating</option>
+              <option>Program partnership</option>
+              <option>Requesting assistance</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help"></textarea>
+          </div>
+          <div class="cta-row">
+            <button class="btn primary" type="submit">Send message</button>
+            <span id="formNote" class="pill" aria-live="polite">We’ll reply within 2–3 business days.</span>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> GLOBAL ALLIANCE FOUNDATION • Registered non‑profit • Built with ❤️ for our communities.</small>
+    
+      <div class="footer-row">                                                   <!-- Contact -->
+    <div class="footer-contact">
+      <p>📍 Level 14, 275 Alfred Street
+        North Sydney, NSW 2060</p>
+      <p>📞 ‪+61 480 806 574‬</p>
+      
+      <p>✉ info@globalalliancefoundation.org</p>
+      <p><a href="#" id="connect">www.globalalliancefoundation.org </a></p>
+    </div>
+
+    <!-- Socials -->
+    <div class="footer-socials">
+      <h3>Follow Us</h3>
+      <div class="social-container">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f" id="facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter" id="X"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube" id="youtube"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+        <a href="https://www.github.com/" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </footer>
+
+  <script>
+    // Theme toggle: remembers preference
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') root.classList.add('light');
+    toggle.addEventListener('click', () => {
+      root.classList.toggle('light');
+      localStorage.setItem('theme', root.classList.contains('light') ? 'light' : 'dark');
+    });
+
+    // Contact form (demo only)
+    document.getElementById('contactForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(e.target).entries());
+      alert(`Thanks, ${data.name || 'friend'}! We received your message about: ${data.topic}.`);
+      e.target.reset();
+    });
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
